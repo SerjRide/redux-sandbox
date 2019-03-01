@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 
 function styles() {
-  console.log(`call styles function`)
+  return gulp.src('./public').pipe(hulp.dest())
 }
 
 function script() {
